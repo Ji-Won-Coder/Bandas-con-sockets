@@ -4,11 +4,12 @@ class BandList{
 
     constructor(){
 
-        this.bands=[
+        this.bands = [
             new Band('Pandilla'),
             new Band('Pintura'),
             new Band('Dibujo'),
             new Band('Tokyo'),
+            new Band('pop'),
         ];
     }
     addband(name){
